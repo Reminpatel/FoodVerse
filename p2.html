@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Foodverse — Gourmet Delivery</title>
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;900&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <link rel="stylesheet" href="p2.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">Foodverse</div>
+    <nav class="nav">
+      <a href="#">Menu</a>
+      <a href="#">Orders</a>
+      <a href="#">Contact</a>
+      <button class="btn small">Sign in</button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <h1>Find the best dishes in your city</h1>
+        <p>Fast delivery • Top chefs • Real flavours</p>
+        <div class="hero-cta">
+          <input placeholder="Enter your delivery area (city, pincode)" />
+          <button class="btn primary">Find Food</button>
+        </div>
+      </div>
+      <img class="hero-chef" src="assets/chef.jpg" alt="Chef">
+    </section>
+
+    <!-- CATEGORIES -->
+    <section class="categories">
+      <div class="chip active"><i class="fa-solid fa-burger"></i> Burgers</div>
+      <div class="chip"><i class="fa-solid fa-pizza-slice"></i> Pizza</div>
+      <div class="chip"><i class="fa-solid fa-fish"></i> Seafood</div>
+      <div class="chip"><i class="fa-solid fa-bowl-rice"></i> Asian</div>
+      <div class="chip"><i class="fa-solid fa-leaf"></i> Vegan</div>
+    </section>
+
+    <!-- FEATURED DISHES -->
+    <section class="featured">
+      <h2>Featured Today</h2>
+      <div class="grid">
+        <article class="dish">
+          <img src="assets/dish1.jpg" alt="Dish 1">
+          <div class="meta">
+            <h3>Smoky Chicken Burger</h3>
+            <p class="desc">Angus patty, smoked cheddar, spicy aioli</p>
+            <div class="row">
+              <span class="price">₹249</span>
+              <span class="rating"><i class="fa-solid fa-star"></i> 4.7</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="dish">
+          <img src="assets/dish2.jpg" alt="Dish 2">
+          <div class="meta">
+            <h3>Truffle Mushroom Pasta</h3>
+            <p class="desc">Handmade pasta, creamy truffle sauce</p>
+            <div class="row">
+              <span class="price">₹299</span>
+              <span class="rating"><i class="fa-solid fa-star"></i> 4.9</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="dish">
+          <img src="assets/dish3.jpg" alt="Dish 3">
+          <div class="meta">
+            <h3>Peri-Peri Chicken</h3>
+            <p class="desc">Marinated grill with peri-peri glaze</p>
+            <div class="row">
+              <span class="price">₹349</span>
+              <span class="rating"><i class="fa-solid fa-star"></i> 4.6</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="dish">
+          <img src="assets/dish4.jpg" alt="Dish 4">
+          <div class="meta">
+            <h3>Classic Margherita</h3>
+            <p class="desc">Brick oven, fresh basil & buffalo mozzarella</p>
+            <div class="row">
+              <span class="price">₹199</span>
+              <span class="rating"><i class="fa-solid fa-star"></i> 4.5</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="dish">
+          <img src="assets/dish5.jpg" alt="Dish 5">
+          <div class="meta">
+            <h3>Salmon Teriyaki Bowl</h3>
+            <p class="desc">Glazed salmon with sesame rice</p>
+            <div class="row">
+              <span class="price">₹399</span>
+              <span class="rating"><i class="fa-solid fa-star"></i> 4.8</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="dish">
+          <img src="assets/dish6.jpg" alt="Dish 6">
+          <div class="meta">
+            <h3>Chocolate Lava Cake</h3>
+            <p class="desc">Melty centre, served warm</p>
+            <div class="row">
+              <span class="price">₹129</span>
+              <span class="rating"><i class="fa-solid fa-star"></i> 4.9</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- FLOATING ORDER CTA -->
+    <a class="order-fab" href="#"><i class="fa-solid fa-bag-shopping"></i> Order Now</a>
+
+  </main>
+
+  <footer class="footer">
+    <p>© 2025 Foodverse • Built with HTML & CSS</p>
+  </footer>
+</body>
+</html>
